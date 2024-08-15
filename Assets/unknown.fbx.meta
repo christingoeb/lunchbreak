@@ -30,7 +30,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 0
     animationRotationError: 0
     animationPositionError: 0
     animationScaleError: 0
@@ -51,7 +51,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -333,56 +333,6 @@ ModelImporter:
       position: {x: -0.0000112121925, y: 0.0299095, z: -0.0001229316}
       rotation: {x: 0.013436243, y: 0.9978738, z: -0.054246683, w: -0.033537216}
       scale: {x: 1, y: 1, z: 1}
-    - name: unknown:LeftUpLeg
-      parentName: unknown:Hips
-      position: {x: 0.002794924, y: -0.0009570394, z: -0.00048828253}
-      rotation: {x: 0.13038923, y: 0.6697238, z: 0.7148333, w: -0.1532387}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:LeftLeg
-      parentName: unknown:LeftUpLeg
-      position: {x: 0, y: 0, z: -0.014250573}
-      rotation: {x: 0.28702474, y: -0.084772386, z: -0.16024679, w: 0.9406123}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:LeftFoot
-      parentName: unknown:LeftLeg
-      position: {x: 0, y: 0, z: -0.014046975}
-      rotation: {x: -0.04246326, y: 0.7496903, z: 0.6593681, w: -0.037351526}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:LeftToeBase
-      parentName: unknown:LeftFoot
-      position: {x: 0, y: 1.08165414e-10, z: -0.0047941157}
-      rotation: {x: 0.059674848, y: -0.0031926094, z: -0.0006637847, w: 0.9982126}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:LeftFootEE
-      parentName: unknown:LeftToeBase
-      position: {x: 0, y: -1.3383179e-11, z: -0.0027859812}
-      rotation: {x: 0.07939279, y: -0.006657209, z: -0.00053021987, w: 0.99682105}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:RightUpLeg
-      parentName: unknown:Hips
-      position: {x: -0.002794924, y: -0.0009570394, z: -0.00048828253}
-      rotation: {x: -0.12531593, y: 0.6685094, z: 0.70341223, w: 0.20640355}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:RightLeg
-      parentName: unknown:RightUpLeg
-      position: {x: 0, y: 0, z: -0.014250573}
-      rotation: {x: 0.28972295, y: 0.06685162, z: 0.25477412, w: 0.920153}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:RightFoot
-      parentName: unknown:RightLeg
-      position: {x: 0, y: 0, z: -0.014046975}
-      rotation: {x: 0.060755298, y: 0.7475707, z: 0.6578705, w: -0.06821509}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:RightToeBase
-      parentName: unknown:RightFoot
-      position: {x: 0, y: 1.08165414e-10, z: -0.0047941157}
-      rotation: {x: 0.061625384, y: 0.0031995624, z: 0.0006320624, w: 0.998094}
-      scale: {x: 1, y: 1, z: 1}
-    - name: unknown:RightFootEE
-      parentName: unknown:RightToeBase
-      position: {x: 0, y: -1.3383179e-11, z: -0.0027859812}
-      rotation: {x: 0.07939279, y: 0.006657209, z: 0.00053021987, w: 0.99682105}
-      scale: {x: 1, y: 1, z: 1}
     - name: unknown:Spine
       parentName: unknown:Hips
       position: {x: 0, y: 0.0019140788, z: 0.0009765648}
@@ -466,12 +416,62 @@ ModelImporter:
     - name: unknown:Head
       parentName: unknown:Neck
       position: {x: 0, y: 6.2577055e-11, z: -0.0026519985}
-      rotation: {x: 0.12571797, y: -0.03467596, z: 0.16446514, w: 0.97772384}
+      rotation: {x: 0.13039733, y: -0.0017650835, z: -0.08808975, w: 0.98753923}
       scale: {x: 1, y: 1, z: 1}
     - name: unknown:HeadEE
       parentName: unknown:Head
       position: {x: 0, y: 0, z: -0.0053055873}
       rotation: {x: -0.6898078, y: 0, z: 0, w: 0.72399265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:LeftUpLeg
+      parentName: unknown:Hips
+      position: {x: 0.002794924, y: -0.0009570394, z: -0.00048828253}
+      rotation: {x: -0.21041915, y: -0.7545748, z: -0.60872024, w: 0.12570009}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:LeftLeg
+      parentName: unknown:LeftUpLeg
+      position: {x: 0, y: 0, z: -0.014250573}
+      rotation: {x: -0.021299481, y: -0.046630498, z: -0.2932362, w: 0.9546646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:LeftFoot
+      parentName: unknown:LeftLeg
+      position: {x: 0, y: 0, z: -0.014046975}
+      rotation: {x: 0.061086472, y: -0.7506761, z: -0.65755737, w: 0.01929142}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:LeftToeBase
+      parentName: unknown:LeftFoot
+      position: {x: 0, y: 1.08165414e-10, z: -0.0047941157}
+      rotation: {x: 0.059674848, y: -0.0031926094, z: -0.0006637847, w: 0.9982126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:LeftFootEE
+      parentName: unknown:LeftToeBase
+      position: {x: 0, y: -1.3383179e-11, z: -0.0027859812}
+      rotation: {x: 0.07939279, y: -0.006657209, z: -0.00053021987, w: 0.99682105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:RightUpLeg
+      parentName: unknown:Hips
+      position: {x: -0.002794924, y: -0.0009570394, z: -0.00048828253}
+      rotation: {x: 0.02182087, y: 0.7838835, z: 0.62046504, w: 0.008584978}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:RightLeg
+      parentName: unknown:RightUpLeg
+      position: {x: 0, y: 0, z: -0.014250573}
+      rotation: {x: 0.024292724, y: -0.032603264, z: -0.021887677, w: 0.99893343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:RightFoot
+      parentName: unknown:RightLeg
+      position: {x: 0, y: 0, z: -0.014046975}
+      rotation: {x: 0.060755298, y: 0.7475707, z: 0.6578705, w: -0.06821509}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:RightToeBase
+      parentName: unknown:RightFoot
+      position: {x: 0, y: 1.08165414e-10, z: -0.0047941157}
+      rotation: {x: 0.061625384, y: 0.0031995624, z: 0.0006320624, w: 0.998094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: unknown:RightFootEE
+      parentName: unknown:RightToeBase
+      position: {x: 0, y: -1.3383179e-11, z: -0.0027859812}
+      rotation: {x: 0.07939279, y: 0.006657209, z: 0.00053021987, w: 0.99682105}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
