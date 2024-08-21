@@ -1,0 +1,12 @@
+newmtl Innenhof_1_7_0
+map_Ka ./5b2adf49-fc41-21e2-78df-712a6e5aac88_0.jpg
+map_Kd ./5b2adf49-fc41-21e2-78df-712a6e5aac88_0.jpg
+newmtl Innenhof_1_7_1
+map_Ka ./5b2adf49-fc41-21e2-78df-712a6e5aac88_1.jpg
+map_Kd ./5b2adf49-fc41-21e2-78df-712a6e5aac88_1.jpg
+newmtl Innenhof_1_7_2
+map_Ka ./5b2adf49-fc41-21e2-78df-712a6e5aac88_2.jpg
+map_Kd ./5b2adf49-fc41-21e2-78df-712a6e5aac88_2.jpg
+newmtl Innenhof_1_7_3
+map_Ka ./5b2adf49-fc41-21e2-78df-712a6e5aac88_3.jpg
+map_Kd ./5b2adf49-fc41-21e2-78df-712a6e5aac88_3.jpg
